@@ -119,7 +119,7 @@ async def cb_navg(bot, update: CallbackQuery):
                     [
                         InlineKeyboardButton
                             (
-                                f"⚜ {chat_name} ⚜", url="https://t.me/share/url?url=https://t.me/joinchat/P-StzD-mkMcyMTI1"
+                                'share group', url="https://t.me/share/url?url=https://t.me/joinchat/P-StzD-mkMcyMTI1"
                             )
                     ]
                 )
@@ -128,7 +128,7 @@ async def cb_navg(bot, update: CallbackQuery):
                 ibuttons[-1].append(
                     InlineKeyboardButton
                         (
-                            f"⚜ {chat_name} ⚜", url='https://t.me/joinchat/P-StzD-mkMcyMTI1'
+                            'share group', url="https://t.me/joinchat/P-StzD-mkMcyMTI1"
                         )
                 )
             
