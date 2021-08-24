@@ -5,13 +5,11 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
-
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
-
-For More Details Click Help Button Below..
-@CrazyBotsz
-</i>"""    
+(<b>നിയമപരമായ മുന്നറിയിപ്പ്</b> 🙂)
+<i>Punishment for digital piracy can be quite severe. ... Criminal penalties for piracy can include prison sentences of up to five years as well as potential fines up to $250,000
+</i>
+<u>Avoid piracy.. go legal</u>
+"""    
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
@@ -43,7 +41,6 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@CrazyBotsz
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
