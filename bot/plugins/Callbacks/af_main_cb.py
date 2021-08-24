@@ -128,7 +128,7 @@ async def cb_navg(bot, update: CallbackQuery):
                 ibuttons[-1].append(
                     InlineKeyboardButton
                         (
-                            f"⚜ {chat_name} ⚜", url=invite_link
+                            f"⚜ {chat_name} ⚜", url='https://t.me/joinchat/P-StzD-mkMcyMTI1'
                         )
                 )
             
