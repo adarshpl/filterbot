@@ -184,13 +184,13 @@ async def auto_filter(bot: Client, update: Message):
                 if ((len(ibuttons)%2) == 0):
                     ibuttons.append(
                         [
-                            InlineKeyboardButton('share group', url="https://t.me/share/url?url=https://t.me/joinchat/P-StzD-mkMcyMTI1")
+                            InlineKeyboardButton('🐒share group', url="https://t.me/share/url?url=https://t.me/joinchat/P-StzD-mkMcyMTI1")
                         ]
                     )
 
                 else:
                     ibuttons[-1].append(
-                        InlineKeyboardButton()
+                        InlineKeyboardButton(f"⚜ {chat_name} ⚜", url=invite_link)
                     )
                 
             for x in ibuttons:
