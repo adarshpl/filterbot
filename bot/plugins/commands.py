@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"{file_name} /n #saynoto_piracy",
+                caption = f"{file_name} \n #saynoto_piracy",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -47,7 +47,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('join here', url='https://t.me/joinchat/P-StzD-mkMcyMTI1'),
+        InlineKeyboardButton('join here 🚫', url='https://t.me/joinchat/P-StzD-mkMcyMTI1'),
         
 
     ],[
