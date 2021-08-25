@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"{file_name} /n<s>🚫saynotopiracy</s>",
+                caption = f"{file_name} \n <s>🚫saynotopiracy</s>",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
