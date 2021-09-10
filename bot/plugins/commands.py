@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"{file_name} \n<a href="https://t.me/joinchat/P-StzD-mkMcyMTI1">🚫 saynotopiracy</a>"
+                caption = caption,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
